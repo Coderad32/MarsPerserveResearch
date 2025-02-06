@@ -29,6 +29,5 @@ Open and available for hire.
 
 ## Our Legacy
 
-You're here to leave a legacy. Whether through your work, family, or personal endeavors, you're here to make a positive impact that will outlast you. Let's make a difference together.
-
+You're here to leave a legacy. Whether through your work, family, or personal endeavors, you're here.
 ---
