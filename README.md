@@ -1,5 +1,9 @@
 # Welcome 
-Howdy folks, Welcome to The Mars Persevere Github repo.
+Howdy folks, Welcome to The Mars Persevere repo. 
+
+## Sponsors
+Thanks for being presistant about the work quality over the span
+of this project and to the people that never get credit.
 
 ## Data 
 The following projects aim to establish brand identity and ensure brand security for future growth:
@@ -28,6 +32,4 @@ Open and available for hire.
 - **Fork the Data:** Feel free to fork this repository to contribute or use in your projects.
 
 ## Our Legacy
-
 You're here to leave a legacy. Whether through your work, family, or personal endeavors, you're here.
----
