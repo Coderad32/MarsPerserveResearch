@@ -1,46 +1,42 @@
 # Welcome 
-Howdy folks, Welcome to The Mars Persevere repo. 
+Howdy folks, welcome to The Mars Persevere repository.
 
 ## Sponsors
-Thanks for being presistant about the work quality over the span
-of this project and to the people that never get credit.
+Thank you for your persistent dedication to maintaining high-quality work throughout this project and for all the unsung heroes behind the scenes.
 
 ## Data 
-The following projects aim to establish brand identity and ensure brand security for future growth:
+This project aims to establish and secure a robust brand identity for future growth:
 
 - **Brand Identity Development**
 - **Brand Security Measures**
 
 ## Food Support
+Establish a foundation for food sustainability projects in your county through donations, grants, or sponsorships.
 
-Establish a foundation to build food sustainability projects in your county 
-through donations grants or sponsorships.
+The primary objective of the Self-Management DIY allocation for the food support project is to sustain the local population.
 
-Self Management DIY allocation for food support project
-program main objective is to sustain the local population.
-
-**Allocation of resources via networking ...**
+**Allocation of resources via networking:**
 
 - Promote
 - Contribute
 - Allocate
-  
+
 ## Notes
 
 - **Brand Repo Health:** Regular checks to ensure the repository is up-to-date and secure.
 - **Brand Media Updates:** Frequent updates on media content related to the project.
 - **Brand Service Worker Updates:** Enhancements for better offline functionality and performance.
 
-## Brand License 
+## License 
 This project is licensed under the [Open Source MIT License](LICENSE) - see the LICENSE file for details.
 
-## Brand Terms
+## Terms
 - **Data Privacy:** We do not collect personal information. Instead, we focus on extracting and utilizing code contributions through data polling methods.
 
 ## Cookies 
 - **No Cookies Collected:** We do not use cookies for tracking or data collection.
 
-## connect
+## Connect
 Open and available for hire.
 
 ## Fork 
