@@ -1,6 +1,12 @@
 # Welcome 
 Howdy folks, welcome to The Mars Persevere repository.
 
+* [Getting Started](getting-started.md)
+* [Advanced Topics](advanced-topics.md)
+* [Authentication](advanced-topics.md#authentication)
+* [API Reference](api-reference.md)
+* [FAQ](faq.md)
+  
 ## Sponsors
 Thank you for your persistent dedication to maintaining high-quality work throughout this project and for all the unsung heroes behind the scenes.
 
