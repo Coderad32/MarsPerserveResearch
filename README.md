@@ -1,11 +1,5 @@
 # Welcome 
-Howdy folks, welcome to The Mars Persevere repository.
-
-* [Getting Started](getting-started.md)
-* [Advanced Topics](advanced-topics.md)
-* [Authentication](advanced-topics.md#authentication)
-* [API Reference](api-reference.md)
-* [FAQ](faq.md)
+Howdy folks, welcome to The Mars Perserve repository.
   
 ## Sponsors
 Thank you for your persistent dedication to maintaining high-quality work throughout this project and for all the unsung heroes behind the scenes.
@@ -15,6 +9,7 @@ This project aims to establish and secure a robust brand identity for future gro
 
 - **Brand Identity Development**
 - **Brand Security Measures**
+- **Brand Opt source code**
 
 ## Food Support
 Establish a foundation for food sustainability projects in your county through donations, grants, or sponsorships.
