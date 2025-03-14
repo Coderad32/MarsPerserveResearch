@@ -12,8 +12,8 @@ Example: calls Prototype( function callback )
 
 ## Sponsors
 
-Thank you for your persistent dedication to maintaining high-quality work/farming throughout this project and for all the unsung heroes behind the scenes getting the 
-farming/work done so food could be generated.
+Thank you for your persistent dedication to maintaining high-quality work/farming throughout 
+this project and for all the unsung heroes behind the scenes getting the farming/work done so food could be generated.
 
 ## Project Details
 
@@ -32,14 +32,20 @@ This project aims to establish and secure a robust brand identity for future gro
 
 The primary objective of the Self-Management DIY allocation for the food support project is to sustain the local population.
 
-Establish a foundation for food sustainability projects in your county through donations, grants, or sponsorships.
+Establish a foundation for food sustainability projects in your area through donations, grants, or sponsorships.
 
 **Allocation of resources via networking:**
 
 - Promote
+  Promote project workspace  
+-    (INDEX)
 - Contribute
+   (NETWORK)
+-    (Source Code)
 - git repo fork clone
+-    (DATA SRC)
 - Allocate
+-    (FOOD)
 
 ## Our Legacy
 
@@ -57,7 +63,7 @@ This project is licensed under the [Open Source MIT License](LICENSE.md) - see t
 
 ## Terms
 
-- **Terms Privacy:** We do not collect personal information. Instead, we focus on extracting and utilizing code contributions through data polling methods.
+- **Terms Privacy:** We do not collect personal information.
 
 ## Cookies 
 - **No Cookies Collected:** We do not use cookies for tracking or data collection.
