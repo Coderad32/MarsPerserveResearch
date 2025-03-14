@@ -1,4 +1,4 @@
-# Welcome 
+# Welcome 🍊
 
 Howdy folks, welcome to The Mars Perserve Food repository.
 
