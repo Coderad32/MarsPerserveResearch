@@ -2,22 +2,20 @@
 
 Howdy folks, welcome to The Mars Perserve Food repository.
 
-C.J. Lead Writer
+Cody James ( Lead Project Writer )
 
 Dedicated to creating a lasting food relationship with 
-people who share in the common good of the project
-
-   Note: Prototype()
-Example: calls Prototype( function callback )
+people who share in the common good of the project focusing
+on growth of the project and resource allocation supply.
 
 ## Sponsors
 
-Thank you for your persistent dedication to maintaining high-quality work/farming throughout 
+Thank you for your persistent dedication to maintaining high-quality work/farming throughout,
 this project and for all the unsung heroes behind the scenes getting the farming/work done so food could be generated.
 
 ## Project Details
 
-The project is about creating workspace and farming equipment resource allocation
+The project is about creating workspace and farming equipment resource allocation,
 for investors to seek growth in a fresh start at a new company with high aspirations
 for success in the micro green field of farming.
 
@@ -36,7 +34,6 @@ Establish a foundation for food sustainability projects in your area through don
 
 **Allocation of resources via networking:**
 
-- Promote
   Promote project workspace  
 -    (INDEX)
 - Contribute
