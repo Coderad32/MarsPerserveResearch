@@ -1,8 +1,8 @@
-# Welcome 🍊
+# Welcome , 🍊
 
 Howdy folks, welcome to The Mars Perserve Food repository.
 
-Cody James ( Lead Project Writer )
+Cody James ( Lead Project Developer )
 
 Dedicated to creating a lasting food relationship with 
 people who share in the common good of the project focusing
@@ -25,6 +25,9 @@ This project aims to establish and secure a robust brand identity for future gro
 - **Brand Security Measures**
 - **Brand Opt source code**
 - **DATA Analytics**
+
+This workspace is dedicated to writing source code for the software aspect
+creating the DATA part of the software project.
 
 ## Food Support Network
 
