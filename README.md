@@ -33,8 +33,6 @@ creating the DATA part of the software project.
 
 The primary objective of the Self-Management DIY allocation for the food support project is to sustain the local population.
 
-Establish a foundation for food sustainability projects in your area through donations, grants, or sponsorships.
-
 **Allocation of resources via networking:**
 
   Promote project workspace  
