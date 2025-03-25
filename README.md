@@ -36,18 +36,18 @@ The primary objective of the Self-Management DIY allocation for the food support
 **Allocation of resources via networking:**
 
   Promote project workspace  
--    (INDEX)
-- Contribute
-   (NETWORK)
--    (Source Code)
-- git repo fork clone
--    (DATA SRC)
-- Allocate
--    (FOOD)
+- (INDEX)DATA 
+- Contribute/DATA
+- (NETWORK/Folder)
+- (Source Code DATA)
+- (git repo fork clone)
+- (DATA SRC)
+- (Allocate DATA)
+- (FOOD)
 
-## Our Legacy
+## Our Legacy Open Source Software
 
-You're here to leave a legacy. Whether through your work, family, or personal endeavors, you're here.
+You're here to leave a legacy. Software Legacy Group
 
 ## Notes
 
@@ -57,7 +57,21 @@ You're here to leave a legacy. Whether through your work, family, or personal en
 
 ## License 
 
-This project is licensed under the [Open Source MIT License](LICENSE.md) - see the LICENSE file for details.
+This project is licensed under the [Open Source MIT License](LICENSE.md) 
+- see the LICENSE file for details.
+
+## Security
+
+The security team is established through the admin panel.
+This admin panel I talk about is used in configuring the system
+parameters that are required for the success of the project.
+
+Establish Security Team closed source
+
+> NOTES: additional DATA
+- Priamary DATA 
+- Secondary DATA
+- Third final DATA
 
 ## Terms
 
@@ -65,6 +79,9 @@ This project is licensed under the [Open Source MIT License](LICENSE.md) - see t
 
 ## Cookies 
 - **No Cookies Collected:** We do not use cookies for tracking or data collection.
+- Privacy is key to good product service.
+- **Cookies** Not collected here-in the software.
 
 ## Connect
 Open and available for communications.
+Please feel free to write a reply.
