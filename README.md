@@ -1,87 +1,31 @@
-# Welcome , 🍊
+# Welcome
 
-Howdy folks, welcome to The Mars Perserve Food repository.
+Introduction to the farming project at home. DIYer.
 
-Cody James ( Lead Project Developer )
+## Farming Solutions
 
-Dedicated to creating a lasting food relationship with 
-people who share in the common good of the project focusing
-on growth of the project and resource allocation supply.
+Auto Growth Climate Box -- Built Solutions
 
-## Sponsors
+- Sustainable Growth Solutions
+- Results Driven Change it up
+- after testing a system change it up
+- run more test case
 
-Thank you for your persistent dedication to maintaining high-quality work/farming throughout,
-this project and for all the unsung heroes behind the scenes getting the farming/work done so food could be generated.
 
-## Project Details
+## Sustainable Growth
 
-The project is about creating workspace and farming equipment resource allocation,
-for investors to seek growth in a fresh start at a new company with high aspirations
-for success in the micro green field of farming.
+At the Mars Preserve Foundation we build farming systems for farmers to run experiments 
+and other post production ( development ) farming test cases.
 
-This project aims to establish and secure a robust brand identity for future growth:
+Sustainable Growth is generated through the production of the climate engineered growth connex
+climate connex boxes.
 
-- **Brand Identity Development**
-- **Brand Security Measures**
-- **Brand Opt source code**
-- **DATA Analytics**
+Growing Forwards, moving forwards finding the space and making the time to farm.
+Connex, climate growth box for plants to grow in a confined space where the farmer
+can control the growth cycle of the crop or the farmers needs in regards to farming objective
+operations take shape when projects are managed using tools and stats for the DATA. 
 
-This workspace is dedicated to writing source code for the software aspect
-creating the DATA part of the software project.
 
-## Food Support Network
 
-The primary objective of the Self-Management DIY allocation for the food support project is to sustain the local population.
 
-**Allocation of resources via networking:**
 
-  Promote project workspace  
-- (INDEX)DATA 
-- Contribute/DATA
-- (NETWORK/Folder)
-- (Source Code DATA)
-- (git repo fork clone)
-- (DATA SRC)
-- (Allocate DATA)
-- (FOOD)
-
-## Our Legacy Open Source Software
-
-You're here to leave a legacy. Software Legacy Group
-
-## Notes
-
-- **Brand Repo Health:** Regular checks to ensure the repository is up-to-date and secure.
-- **Brand Media Updates:** Frequent updates on media content related to the project.
-- **Brand Service Worker Updates:** Enhancements for better offline functionality and performance.
-
-## License 
-
-This project is licensed under the [Open Source MIT License](LICENSE.md) 
-- see the LICENSE file for details.
-
-## Security
-
-The security team is established through the admin panel.
-This admin panel I talk about is used in configuring the system
-parameters that are required for the success of the project.
-
-Establish Security Team closed source
-
-> NOTES: additional DATA
-- Priamary DATA 
-- Secondary DATA
-- Third final DATA
-
-## Terms
-
-- **Terms Privacy:** We do not collect personal information.
-
-## Cookies 
-- **No Cookies Collected:** We do not use cookies for tracking or data collection.
-- Privacy is key to good product service.
-- **Cookies** Not collected here-in the software.
-
-## Connect
-Open and available for communications.
-Please feel free to write a reply.
