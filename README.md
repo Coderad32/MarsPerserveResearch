@@ -1,6 +1,6 @@
-# Welcome
+# Welcome🍊
 
-Introduction to the farming project at home. DIYer.
+Introduction to the farming project at home. DIYer. 
 
 ## Farming Solutions
 
