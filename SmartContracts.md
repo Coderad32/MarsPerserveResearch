@@ -1,10 +1,10 @@
 # Smart Contracts
 
 ## Introduction
-A smart contract is a self-executing contract with the terms of the agreement directly written into code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. Smart contracts allow for trusted transactions and agreements to be carried out among disparate, anonymous parties without the need for a central authority, legal system, or external enforcement mechanism.
+A smart contract is a self-executing contract with the terms of the agreement directly written into code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network.
 
 ## How Smart Contracts Work
-Smart contracts work by following simple "if/when...then..." statements that are written into code on a blockchain. A network of computers executes the actions when predetermined conditions have been met and verified. These actions could include releasing funds to the appropriate parties, registering a vehicle, sending notifications, or issuing a ticket. The blockchain is then updated when the transaction is completed. That means the transaction cannot be changed, and only parties who have been granted permission can see the results.
+Smart contracts work by following simple "if/when...then..." statements that are written into code on a blockchain. A network of computers executes the actions when predetermined conditions have been met and verified.
 
 ## Key Features
 - **Autonomy**: Smart contracts are executed automatically by the network, reducing the need for intermediaries.
@@ -36,5 +36,11 @@ Smart contracts work by following simple "if/when...then..." statements that are
 - **Hyperledger Fabric**: A permissioned blockchain platform tailored for enterprise use.
 - **Solana**: Known for high-speed transactions and low fees, making it suitable for large-scale applications.
 
-## Conclusion
-Smart contracts represent a significant advancement in the way agreements are executed and enforced. By leveraging blockchain technology, they offer a secure, transparent, and efficient alternative to traditional contract management. As the technology matures and regulatory frameworks evolve, smart contracts are expected to play an increasingly important role in various industries.
+## Security
+Smart contracts must be designed with security as a top priority. Common security practices include:
+- **Code Audits**: Regularly auditing the code for vulnerabilities and potential exploits.
+- **Formal Verification**: Using mathematical methods to verify that the smart contract behaves as intended.
+- **Access Control**: Implementing role-based access control to restrict who can execute certain functions.
+- **Fallback Functions**: Ensuring that there are safeguards in place for handling unexpected situations or errors.
+
+ ▋
