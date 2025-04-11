@@ -1,51 +1,50 @@
 # Welcome 🍊
 
-Introduction to the farming project at home. DIYer. 
+Introduction to the farming project at home for DIY enthusiasts.
 
-A climate controlled connex box modified to support life
-through enviornmental variables such as:
+A climate-controlled connex box modified to support life
+through environmental variables such as:
 
-- Humanidity
+- Humidity
 - Condensation
-- Tempature
+- Temperature
 
-With these varaibles good plant growth is seen and to be expected.
+With these variables, good plant growth is observed and expected.
 
 ## Farming Solutions
 
-Auto Growth Climate Box -- Built Solutions
+### Auto Growth Climate Box - Built Solutions
 
-A vision of climate controlled growing solutions
-using connex box. 
+A vision of climate-controlled growing solutions
+using connex boxes.
 
-Climate controlled connex
+Climate-controlled connex:
 
 - Sustainable Growth Solutions
-- Results Driven Change it up
-- After testing a system change it up
-- Run more test case
+- Results-Driven Changes
+- After testing a system, iterate and improve
+- Run additional test cases
 
-A system setup to be used for growing food.
+A system designed to be used for growing food.
 
 ## Sustainable Farmers
 
-At the Mars Preserve Foundation we build farming systems for farmers to run experiments 
-and other post production ( development ) farming test cases.
+At the Mars Preserve Foundation, we build farming systems for farmers to run experiments 
+and other post-production (development) farming test cases.
 
-Sustainable Growth is generated through the production of the climate engineered growth connex
-climate connex boxes.
+Sustainable growth is achieved through the production of climate-engineered growth connex boxes.
 
 ## Learning Roadmap
 
 Growing Forwards, moving forwards finding the space and making the time to farm.
-Connex, climate growth box for plants to grow in a confined space where the farmer
-can control the growth cycle of the crop or the farmers needs in regards to farming objective
-operations take shape when projects are managed using tools and stats for the DATA. 
-
+Growing forward, finding the space, and making the time to farm.
+Connex climate growth boxes allow plants to grow in a confined space where the farmer
+can control the growth cycle of the crop. Farmers' needs regarding farming objectives
+take shape when projects are managed using tools and data-driven statistics.
 
 ## Test case
 
-1. outcome is true keep going build a system; 
+1. build a system; 
 2. project overhead;
 3. workspace;
 4. profit;
@@ -53,5 +52,6 @@ operations take shape when projects are managed using tools and stats for the DA
 ## Privacy Notes
 
 Delete your cookies generally works
- 
- MIT 2025
+Deleting your cookies generally works.
+
+ MIT <year> 2025
