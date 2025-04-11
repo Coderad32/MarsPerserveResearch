@@ -1,21 +1,33 @@
-# Welcome🍊
+# Welcome 🍊
 
 Introduction to the farming project at home. DIYer. 
+
+A climate controlled connex box modified to support life
+through enviornmental variables such as:
+
+- Humanidity
+- Condensation
+- Tempature
+
+With these varaibles good plant growth is seen and to be expected.
 
 ## Farming Solutions
 
 Auto Growth Climate Box -- Built Solutions
 
 A vision of climate controlled growing solutions
-using connex box
+using connex box. 
+
+Climate controlled connex
 
 - Sustainable Growth Solutions
 - Results Driven Change it up
 - After testing a system change it up
 - Run more test case
 
+A system setup to be used for growing food.
 
-## Sustainable Growth
+## Sustainable Farmers
 
 At the Mars Preserve Foundation we build farming systems for farmers to run experiments 
 and other post production ( development ) farming test cases.
@@ -33,18 +45,13 @@ operations take shape when projects are managed using tools and stats for the DA
 
 ## Test case
 
-IF outcome is true keep going build a system else quit farming
+1. outcome is true keep going build a system; 
+2. project overhead;
+3. workspace;
+4. profit;
 
-## Privacy Tools
+## Privacy Notes
 
 Delete your cookies generally works
-
-
-
-
-
-
-
-
-
-
+ 
+ MIT 2025
