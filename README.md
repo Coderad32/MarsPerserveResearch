@@ -49,9 +49,5 @@ take shape when projects are managed using tools and data-driven statistics.
 3. workspace;
 4. profit;
 
-## Privacy Notes
-
-Delete your cookies generally works
-Deleting your cookies generally works.
-
+   
  MIT <year> 2025
