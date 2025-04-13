@@ -1,53 +1,56 @@
 # Welcome 🍊
 
-Introduction to the farming project at home for DIY enthusiasts.
+Welcome to the DIY farming project, designed for enthusiasts who want to grow plants in a controlled environment.
 
-A climate-controlled connex box modified to support life
-through environmental variables such as:
+This project focuses on using a climate-controlled connex box to support plant growth by managing key environmental variables such as:
 
-- Humidity
-- Condensation
-- Temperature
+- **Humidity**
+- **Condensation**
+- **Temperature**
 
-With these variables, good plant growth is observed and expected.
+By optimizing these variables, healthy and consistent plant growth can be achieved.
+
+---
 
 ## Farming Solutions
 
-### Auto Growth Climate Box - Built Solutions
+### Auto-Growth Climate Box
 
-A vision of climate-controlled growing solutions
-using connex boxes.
+Our vision is to create climate-controlled growing solutions using modified connex boxes. These systems are designed to provide:
 
-Climate-controlled connex:
+- **Sustainable Growth Solutions**: Supporting long-term, eco-friendly farming practices.
+- **Results-Driven Improvements**: Iterative testing and refinement of systems.
+- **Data-Driven Insights**: Running test cases to improve efficiency and outcomes.
 
-- Sustainable Growth Solutions
-- Results-Driven Changes
-- After testing a system, iterate and improve
-- Run additional test cases
+These systems are ideal for growing food in controlled environments, enabling farmers to experiment and innovate.
 
-A system designed to be used for growing food.
+---
 
-## Sustainable Farmers
+## Sustainable Farming with the Mars Preserve Foundation
 
-At the Mars Preserve Foundation, we build farming systems for farmers to run experiments 
-and other post-production (development) farming test cases.
+At the Mars Preserve Foundation, we develop advanced farming systems to help farmers conduct experiments and post-production tests. Our climate-engineered connex boxes are designed to promote sustainable growth and empower farmers to achieve their goals.
 
-Sustainable growth is achieved through the production of climate-engineered growth connex boxes.
+---
 
 ## Learning Roadmap
 
-Growing Forwards, moving forwards finding the space and making the time to farm.
-Growing forward, finding the space, and making the time to farm.
-Connex climate growth boxes allow plants to grow in a confined space where the farmer
-can control the growth cycle of the crop. Farmers' needs regarding farming objectives
-take shape when projects are managed using tools and data-driven statistics.
+"Growing Forward" is our philosophy—finding the space and time to farm effectively. Connex climate growth boxes allow farmers to:
 
-## Test case
+- Grow crops in confined, controlled spaces.
+- Manage the growth cycle of plants with precision.
+- Use tools and data-driven insights to meet farming objectives.
 
-1. build a system; 
-2. project overhead;
-3. workspace;
-4. profit;
+By combining innovation and sustainability, we aim to make farming more accessible and efficient.
 
-   
- MIT <year> 2025
+---
+
+## Test Case Workflow
+
+1. Build the system.
+2. Manage project overhead.
+3. Optimize the workspace.
+4. Achieve profitability.
+
+---
+
+© MIT License 2025
