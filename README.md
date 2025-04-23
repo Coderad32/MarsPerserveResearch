@@ -12,9 +12,9 @@ By optimizing these variables, healthy and consistent plant growth can be achiev
 
 ---
 
-## Farming Solutions
+## Farming Solutions 🧑‍🌾
 
-### Auto-Growth Climate Box
+### Auto-Growth Climate Box 
 
 Our vision is to create climate-controlled growing solutions using modified connex boxes. These systems are designed to provide:
 
@@ -26,13 +26,13 @@ These systems are ideal for growing food in controlled environments, enabling fa
 
 ---
 
-## Sustainable Farming with the Mars Preserve Foundation
+## Sustainable Farming with the Mars Preserve Foundation 🚜
 
 At the Mars Preserve Foundation, we develop advanced farming systems to help farmers conduct experiments and post-production tests. Our climate-engineered connex boxes are designed to promote sustainable growth and empower farmers to achieve their goals.
 
 ---
 
-## Learning Roadmap
+## Learning Roadmap ✏️
 
 "Growing Forward" is our philosophy—finding the space and time to farm effectively. Connex climate growth boxes allow farmers to:
 
@@ -44,7 +44,7 @@ By combining innovation and sustainability, we aim to make farming more accessib
 
 ---
 
-## Test Case Workflow
+## Test Case Workflow 🧲
 
 1. Build the system.
 2. Manage project overhead.
@@ -53,4 +53,4 @@ By combining innovation and sustainability, we aim to make farming more accessib
 
 ---
 
-© MIT License 2025
+© MIT License 2025 🍊 Mars Preserve Foundation 
