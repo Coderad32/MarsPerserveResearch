@@ -1,58 +1,71 @@
-Installation Guide for Shell and Python
-Installing Python
+The example in the `Configuration.md` file includes some markup that seems misaligned and could be cleaned up for better clarity. Here's a fixed version for the example:
 
-    Check if Python is already installed:
-    bash
+### Revised Installation Guide for Shell and Python
 
-python3 --version
+#### Installing Python
 
-If Python is installed, this command will show the installed version.
+1. **Check if Python is already installed:**
 
-Install Python (if not installed):
+   ```bash
+   python3 --version
+   ```
 
-    On Ubuntu/Debian-based systems:
-    bash
+   If Python is installed, this command will display the installed version.
 
-sudo apt update
-sudo apt install python3 python3-pip
+2. **Install Python (if not installed):**
 
-On macOS:
-bash
+   - **On Ubuntu/Debian-based systems:**
+     ```bash
+     sudo apt update
+     sudo apt install python3 python3-pip
+     ```
 
-    brew install python
+   - **On macOS:**
+     ```bash
+     brew install python
+     ```
 
-    On Windows: Download and install Python from the official website.
+   - **On Windows:**  
+     Download and install Python from the official [Python website](https://www.python.org).
 
-Verify the installation:
-bash
+3. **Verify the installation:**
 
-    python3 --version
-    pip3 --version
+   ```bash
+   python3 --version
+   pip3 --version
+   ```
 
-Installing Shell
+#### Installing Shell
 
-    Check if a Shell is already installed:
-        Most systems come with bash or zsh pre-installed. You can check the default shell by running:
-        bash
+1. **Check if a Shell is already installed:**
 
-    echo $SHELL
+   Most systems come with `bash` or `zsh` pre-installed. You can check the default shell by running:
 
-Install a Shell (if needed):
+   ```bash
+   echo $SHELL
+   ```
 
-    On Ubuntu/Debian-based systems:
-    bash
+2. **Install a Shell (if needed):**
 
-sudo apt update
-sudo apt install bash
+   - **On Ubuntu/Debian-based systems:**
+     ```bash
+     sudo apt update
+     sudo apt install bash
+     ```
 
-On macOS: Update to the latest version of zsh using Homebrew:
-bash
+   - **On macOS:**  
+     Update to the latest version of `zsh` using Homebrew:
+     ```bash
+     brew install zsh
+     ```
 
-    brew install zsh
+   - **On Windows:**  
+     Install a shell like [Git Bash](https://git-scm.com/) or use the Windows Subsystem for Linux (WSL).
 
-    On Windows: Install a shell like Git Bash or use the Windows Subsystem for Linux (WSL).
+3. **Set the default shell:**
 
-Set the default shell:
-bash
+   ```bash
+   chsh -s /bin/bash   # Replace /bin/bash with the path to your preferred shell.
+   ```
 
-chsh -s /bin/bash   # Replace /bin/bash with the path to your preferred shell.
+This revised version improves formatting, aligns the code blocks properly, and ensures consistency across all instructions. Let me know if you'd like further modifications!
