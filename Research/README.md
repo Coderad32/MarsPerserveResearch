@@ -2,7 +2,7 @@
 
 Created by Cody Bunnell (C.J.) profile: [github.com/coderad32](@coderad32)
 
-Project main URL: [github.com/marspreserve](@marspreserve)
+Project main URL: [https://github.com/marspreserve](@marspreserve)
 
 **Year** - 2025 All Rights Reserved
 
@@ -41,7 +41,7 @@ Please feel free to report bugs below this file.
 ## Conclusion
 
 I hope this small document helps you. If you're still confused about the project and how you can collaborate or support, please reach out to us
-at [Github.com/MarsPreserve](MarsPreserve).
+at [[Github.com/MarsPreserve](https://github.com/marspreserve)](MarsPreserve).
 
 If you're a writer, we are looking for people to write online documentation and scripts for our ongoing research and development foundation.
 
