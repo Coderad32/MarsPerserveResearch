@@ -30,7 +30,7 @@ These systems are ideal for growing food in controlled environments, enabling fa
 
 ---
 
-## Sustainable Farming with the Mars Preserve Foundation 🚜
+## Sustainable Farming with the Mars Preserve 🚜
 
 At the Mars Preserve Foundation, we develop advanced farming systems to help farmers conduct experiments and post-production tests. Our climate-engineered connex boxes are designed to:
 
