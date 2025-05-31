@@ -72,7 +72,7 @@ This workflow is designed to help farmers and researchers systematically improve
 
 <br>
 
-© MIT License 2025 🍊 Mars Preserve Foundation Cody Bunnell 2024-2025
+© MIT License 2025 🍊 Mars Preserve Research Cody Bunnell 2024-2025
 BeyondTheViewport. 
 
 All Rights Reserved Respectively.
