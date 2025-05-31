@@ -1,4 +1,4 @@
-# Welcome 🍊 Mars Preserve Research Foundation
+# Welcome 🍊 Mars Preserve Research
 
 Welcome to the DIY farming project, designed for enthusiasts who want to grow plants in a controlled environment.
 
