@@ -16,17 +16,17 @@ Distribution: How To Break It Down.
 
 ## My Project Tokens
 
-- 250,000,000 testnet public sales for project
+- 25,000,000 testnet public sales for project
 
-- 250,000,000 testnet private sales for research 
+- 25,000,000 testnet private sales for research 
 
-- 250,000,000 testnet r n d training
+- 25,000,000 testnet r n d training
 
-- 250,000,000 testnet remote worker
+- 25,000,000 testnet remote worker
 
 ## Total Amount Allocated (maths)
 
-1,000,000,000 / 4 = 250,000,000
+1,000,000,000 / 4 = 25,000,000
 
 
 ## Mars Preserve Research Token
