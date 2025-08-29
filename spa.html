@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dark Mode Responsive Layout with More Components</title>
+    <style>
+        /* Reset and base styles */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        a {
+            color: #bb86fc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover,
+        a:focus {
+            color: #3700b3;
+            outline: none;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 0.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 1rem;
+        }
+
+        main {
+            flex: 1 0 auto;
+            max-width: 1200px;
+            margin: 1rem auto;
+            padding: 0 1rem;
+            width: 100%;
+        }
+
+        /* Three-column grid layout */
+        .three-column-layout {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Dark card style for sections */
+        .three-column-layout section,
+        aside.sidebar,
+        .cta-section,
+        .featured-articles {
+            background-color: #1f1f1f;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Sidebar styling */
+        aside.sidebar {
+            background-color: #2a2a2a;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+
+        aside.sidebar h3 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color: #bb86fc;
+        }
+
+        aside.sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside.sidebar ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Call To Action Section */
+        .cta-section {
+            background: linear-gradient(135deg, #3700b3, #bb86fc);
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 10px #bb86fc88;
+        }
+
+        .cta-section button {
+            margin-top: 1rem;
+            background-color: #121212;
+            border: none;
+            color: #bb86fc;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .cta-section button:hover,
+        .cta-section button:focus {
+            background-color: #bb86fc;
+            color: #121212;
+            outline: none;
+        }
+
+        /* Featured Articles Styling */
+        .featured-articles h2 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color: #bb86fc;
+        }
+
+        .article {
+            margin-bottom: 1rem;
+        }
+
+        .article h3 {
+            margin: 0 0 0.3rem 0;
+        }
+
+        .article p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        /* Newsletter Signup */
+        .newsletter {
+            background-color: #1f1f1f;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+            max-width: 400px;
+            margin: 0 auto 2rem;
+            text-align: center;
+        }
+
+        .newsletter h2 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color: #bb86fc;
+        }
+
+        .newsletter form {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .newsletter input[type="email"] {
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: none;
+            flex: 1 1 200px;
+            font-size: 1rem;
+        }
+
+        .newsletter button {
+            padding: 0.5rem 1rem;
+            background-color: #bb86fc;
+            border: none;
+            color: #121212;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            flex: 0 0 auto;
+        }
+
+        .newsletter button:hover,
+        .newsletter button:focus {
+            background-color: #3700b3;
+            outline: none;
+        }
+
+        #contact {
+            max-width: 100% !important;
+            /* Override any max-width */
+            margin: 0 -1rem 2rem;
+            /* Remove horizontal margin and add bottom margin */
+            padding: 1.5rem;
+            background-color: #1f1f1f;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+            width: calc(100% + 2rem);
+            /* Stretch width to full of viewport minus main padding */
+            box-sizing: border-box;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1f1f1f;
+            color: #999;
+            text-align: center;
+            padding: 1rem 2rem;
+            flex-shrink: 0;
+        }
+
+        /* Back to top button */
+        #back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: #bb86fc;
+            color: #121212;
+            border: none;
+            border-radius: 50%;
+            width: 3.5rem;
+            height: 3.5rem;
+            font-size: 1.75rem;
+            cursor: pointer;
+            box-shadow: 0 0 10px #bb86fc;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            transition: background-color 0.3s ease;
+        }
+
+        #back-to-top:hover,
+        #back-to-top:focus {
+            background-color: #3700b3;
+            outline: none;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .three-column-layout {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .three-column-layout {
+                grid-template-columns: 1fr;
+            }
+
+            aside.sidebar {
+                margin-bottom: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 1rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+
+        aside.sidebar ul {
+            display: flex;
+            gap: 1rem;
+            padding: 0;
+            margin: 0;
+            flex-wrap: wrap;
+            /* Allows wrapping on smaller screens */
+        }
+
+        aside.sidebar ul li {
+            margin: 0;
+            /* Remove vertical margin */
+        }
+
+        /* Optional: style the links to look better horizontally */
+        aside.sidebar ul li a {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background-color: #333;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        aside.sidebar ul li a:hover,
+        aside.sidebar ul li a:focus {
+            background-color: #bb86fc;
+            color: #121212;
+            outline: none;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            color: #999;
+            text-align: center;
+            padding: 1rem 2rem;
+            flex-shrink: 0;
+            border-top: 2px solid #444;
+            /* Add border */
+            font-size: 0.9rem;
+        }
+
+        footer nav {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 0.5rem 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .footer-links li a {
+            color: #999;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links li a:hover,
+        .footer-links li a:focus {
+            color: #bb86fc;
+            outline: none;
+        }
+
+        .featured-articles {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        /* On smaller screens stack articles vertically */
+        @media (max-width: 700px) {
+            .featured-articles {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Remove default list styling and use flex layout for buttons */
+        .support-buttons {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 0 0;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            /* Wrap on small screens */
+        }
+
+        /* Style links as buttons */
+        .support-buttons li a {
+            display: inline-block;
+            background-color: #3700b3;
+            color: #fff;
+            padding: 0.5rem 1.25rem;
+            border-radius: 25px;
+            text-align: center;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            user-select: none;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+
+        /* Hover and focus states */
+        .support-buttons li a:hover,
+        .support-buttons li a:focus {
+            background-color: #bb86fc;
+            color: #121212;
+            outline: none;
+            border-color: #bb86fc;
+        }
+
+        /* Optional: active state for keyboard/mouse */
+        .support-buttons li a:active {
+            background-color: #2a006d;
+            border-color: #3700b3;
+        }
+
+        #contact form {
+            max-width: 600px;
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 0.3rem;
+            font-weight: 600;
+            color: #bb86fc;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            border: 1.5px solid #444;
+            background-color: #2a2a2a;
+            color: #e0e0e0;
+            font-size: 1rem;
+            font-family: inherit;
+            resize: vertical;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            border-color: #bb86fc;
+            outline: none;
+        }
+
+        .error-message {
+            color: #cf6679;
+            font-size: 0.875rem;
+            min-height: 1.2rem;
+            /* to avoid layout shift */
+        }
+
+        button[type="submit"] {
+            align-self: flex-start;
+            background-color: #3700b3;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover,
+        button[type="submit"]:focus {
+            background-color: #bb86fc;
+            color: #121212;
+            outline: none;
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 480px) {
+            #contact form {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mars Preserve Research Group 🍊</h1>
+        <nav aria-label="Primary navigation">
+            <ul>
+                <li><a href="#home" tabindex="0">Home</a></li>
+                <li><a href="#about" tabindex="0">About</a></li>
+                <li><a href="#services" tabindex="0">Services</a></li>
+                <li><a href="#connect" tabindex="0">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sidebar -->
+        <aside class="sidebar" aria-label="Sidebar Navigation">
+            <h3>Quick Links</h3>
+            <marquee behavior="scroll" direction="left">Welcome to the
+                Last Login: System information as of Fri Aug 29 09:37:44 PDT 2025</marquee>
+            <ul>
+                <li><a href="#home" tabindex="0">Home Overview</a></li>
+                <li><a href="#about" tabindex="0">Company Info</a></li>
+                <li><a href="#services" tabindex="0">What We Offer</a></li>
+                <li><a href="#donation" tabindex="0">Donation Signup</a></li>
+            </ul>
+        </aside>
+
+        <!-- Three columns -->
+        <div class="three-column-layout">
+            <section id="home">
+                <h2>Welcome to (Mars Preserve Research)</h2>
+                <p>
+                    A smaller sized Research Group Focused on Sustainability and Environmental Efficiency.
+                    We build design and research grow solutions for container HC shipping containers
+                </p>
+            </section>
+
+            <section id="about">
+                <h2>About Us</h2>
+                <p>
+                    We are dedicated to advancing research and development in sustainable practices,
+                    particularly in the realm of containerized shipping solutions.
+
+                    Also, we prioritize eco-friendly practices in all our projects.
+                </p>
+            </section>
+
+            <section id="services">
+                <h2>Our Support</h2>
+                <ul class="support-buttons">
+                    <li><a href="#consulting" tabindex="0" role="button">Consulting</a></li>
+                    <li><a href="#research" tabindex="0" role="button">Research</a></li>
+                    <li><a href="#development" tabindex="0" role="button">Development</a></li>
+                    <li><a href="#donate" tabindex="0" role="button">Donate</a></li>
+                </ul>
+            </section>
+
+            <!-- Call To Action Section -->
+            <section class="cta-section" aria-label="Call to Action">
+                <h2>Interested in working with us?</h2>
+                <p>Join our community for exclusive updates and insights.</p>
+                <button type="button" onclick="alert('Thank you for joining!')">Join Now</button>
+            </section>
+
+            <section class="featured-articles" aria-labelledby="featured-articles-heading">
+                <h2 id="featured-articles-heading">Featured Posts</h2>
+                <article class="article" tabindex="0">
+                    <h3>Getting Started with Mars Preserve Research Group</h3>
+                    <p>Learn the basics of HTML5 & CSS3 to create stunning web experiences.</p>
+                </article>
+                <article class="article" tabindex="0">
+                    <h3>Template Prototype Build</h3>
+                    <p>
+                        Design What you want to Template Prototype Build #OpenSource.
+                    </p>
+                </article>
+                <article class="article" tabindex="0">
+                    <h3>Accessibility Best Practices</h3>
+                    <p>Create for web Accessibility with ARIA and semantic HTML.</p>
+                </article>
+            </section>
+
+            <!-- Newsletter Signup -->
+            <section class="newsletter" id="newsletter" aria-labelledby="newsletter-heading">
+                <h2 id="newsletter-heading">Subscribe Today</h2>
+                <form onsubmit="event.preventDefault(); alert('Subscribed! Thank you!')">
+                    <input type="email" placeholder="Your email address" aria-label="Email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>
+                    Have questions or want to work together? Reach out via <a
+                        href="mailto:contact@opencode411@gmail.com">email</a>.
+                </p>
+                <!-- Contact -->
+                <section id="contact" aria-labelledby="contact-heading">
+                    <h2 id="contact-heading">Contact Us</h2>
+                    <form id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name<span aria-hidden="true" style="color:#bb86fc;"> *</span></label>
+                            <input type="text" id="name" name="name" aria-required="true" required
+                                placeholder="Your full name" />
+                            <span class="error-message" id="name-error" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email<span aria-hidden="true" style="color:#bb86fc;"> *</span></label>
+                            <input type="email" id="email" name="email" aria-required="true" required
+                                placeholder="you@example.com" />
+                            <span class="error-message" id="email-error" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message<span aria-hidden="true" style="color:#bb86fc;">
+                                    *</span></label>
+                            <textarea id="message" name="message" rows="5" aria-required="true" required
+                                placeholder="Write your message here..."></textarea>
+                            <span class="error-message" id="message-error" aria-live="polite"></span>
+                        </div>
+
+                        <button type="submit">Send Message</button>
+                        <p id="form-status" aria-live="polite" style="margin-top:1rem;"></p>
+                    </form>
+                </section>
+    </main>
+
+<section>
+
+<img src="34a8651b-7ad4-4135-b97a-e86c08eefe5d.jpg" alt="mars preserve research group">
+
+
+</section>
+
+    <footer>
+        <nav aria-label="Footer navigation">
+            <ul class="footer-links">
+                <li><a href="#privacy" tabindex="0">Privacy</a></li>
+                <li>
+                    <a href="#cookies" tabindex="0">Cookies</a>
+                </li>
+                <li><a href="#terms" tabindex="0">Terms</a></li>
+                <li><a href="#team" tabindex="0">Team</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Mars Preserve Research Group.🍊 All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">&uarr;</button>
+
+    <script>
+        // Show "Back to Top" button when scrolling down
+        const backToTop = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.style.display = 'flex';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        // Smooth scroll to top on button click
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
