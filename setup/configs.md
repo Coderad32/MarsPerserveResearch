@@ -1,79 +1,91 @@
-## Welcome
+Welcome
 
-"Thanks for checking out the project.
-If you would like to submit comment or feedback please do so..."
+Thanks for checking out the Auto Grow Kit project! If you’d like to submit comments or feedback, we’d love to hear from you.
 
 From: Cody Bunnell
 
+About the Project
 
-## About The Project
+The Auto Grow Kit is designed for climate-controlled High Cube shipping containers. You’ll receive the parts and blueprints in multiple shipments, allowing you to prepare your container in stages.
 
-Auto Grow Kit for a climate controlled High Cube Shipping Container
-You get the parts and blueprints in the mail so it takes a few shipments
-while you get everything ready. You supply your own shipping container
-because its more feasable to order your own. We simply supply the knowledge
-and kits that are crafted for your setup configuration.
+You supply your own container—it’s more feasible and cost-effective that way. We provide the knowledge, kits, and configuration tailored to your setup.
 
-## Easy Instructions
+Easy Instructions
 
-Provide easy instructions for the user / grower / farmer
-Easy to read instructions for building prefab design
-for shipping container units
+We include clear, easy-to-follow instructions for growers, farmers, and DIY builders. The prefab design is optimized for shipping container units and built with simplicity in mind.
 
-## Setup Food Integrity
+Food Integrity & Security
 
-Food security and food integrity while yielding crops
-ia important because the security means you can let your crops grow
-while its safe and food integrity when the crop is most vulerable 
-in the final stages. Food complexity growing multiple crops.
+Food security means your crops grow safely in a controlled environment. Food integrity ensures quality during the most vulnerable stages—especially during harvest.
 
-Integrity means you can barrow a unit and payback with your future crops
-each grower in the network supports the overall goal of the project and that is
-to build Auto Grow Kits and building software for the climate controlled kits.
+The system supports growing multiple crops with complexity and resilience.
 
+Growers in the network can borrow units and repay with future harvests. This shared model strengthens the community and supports the broader mission: building Auto Grow Kits and software for climate-controlled agriculture.
 
-## About US
+About Us
 
-We are a US based farming innovations workspace building a future in farming
-while creating infastructure that lasts for at least a decade. What I mean is that 
-the project should be constructed with quality in mind for what you grow this doesnt
-mean you couldnt fork the project and build your own design auto grow box in fact
-do it get it done and show us what you can do.
+We’re a US-based farming innovation workspace focused on building lasting infrastructure for the next decade of agriculture.
+
+This project is built with quality and longevity in mind. You’re welcome to fork it, remix it, and build your own Auto Grow Box—just get it done and show us what you create.
 
 Crop Kits
 
-Fully pre packaged setup configs and installs for auto grow box development packages
+Fully packaged setup configurations for Auto Grow Box development
 
-fully assembled grow kits from the mars preserve research group.
+Assembled grow kits from the Mars Preserve Research Group
 
-## Features
+Features
 
-- Plug-and-play setup with pre-configured services
-- Modular architecture: sensors, actuators, UI, and logging
-- Dark-themed dashboard with neon accents (React + Tailwind)
-- Optional smart contract hooks for provenance or automation
-- MQTT/HTTP support for sensor data ingestion
-- Expo + React Native mobile companion app scaffold
+🔌 Plug-and-play setup with pre-configured services
 
-## Modules Included
+🧩 Modular architecture: sensors, actuators, UI, logging
 
-- `grow-core`: Sensor polling, actuator control
-- `grow-ui`: Web dashboard (React + Tailwind)
-- `grow-mobile`: Mobile app scaffold (Expo + TypeScript)
-- `grow-chain`: Smart contract templates (Solidity)
-- `grow-config`: Environment presets and calibration profiles
+🌒 Dark-themed dashboard with neon accents (React + Tailwind)
 
+🔐 Optional smart contract hooks for provenance and automation
 
+📡 MQTT/HTTP support for sensor data ingestion
 
-## Requirements
+📱 Mobile companion app scaffold (Expo + React Native)
 
-- Node.js ≥ 18
-- Python ≥ 3.10 (for sensor interfacing)
-- Raspberry Pi or ESP32 (recommended for hardware control)
-- MongoDB or SQLite (for local logging)
-- Optional: Hardhat or Foundry (for smart contract deployment)
+Modules Included
 
+Module
 
-for more information about the project and who am i. x.com/coderad32
+Description
 
+grow-core
 
+Sensor polling, actuator control
+
+grow-ui
+
+Web dashboard (React + Tailwind)
+
+grow-mobile
+
+Mobile app scaffold (Expo + TypeScript)
+
+grow-chain
+
+Smart contract templates (Solidity)
+
+grow-config
+
+Environment presets and calibration
+
+Requirements
+
+Node.js ≥ 18
+
+Python ≥ 3.10 (for sensor interfacing)
+
+Raspberry Pi or ESP32 (recommended for hardware control)
+
+MongoDB or SQLite (for local logging)
+
+Optional: Hardhat or Foundry (for smart contract deployment)
+
+Learn More
+
+For more information about the project and who I am:🔗 x.com/coderad32
